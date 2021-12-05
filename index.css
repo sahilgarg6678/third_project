@@ -1,0 +1,181 @@
+*{
+    text-decoration: none;
+}
+.box11{
+    display: inline-block;
+}
+.tasks{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.list{
+    font-size: 50px;
+    margin-left: 15px;
+}
+.plus{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orangered;
+    font-size: 40px;
+    color: white;
+    margin-left:168px ;
+    text-align: center;
+
+}
+.addlist{
+    font-size: 50px;
+    margin-left: 30px;
+}
+.container{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.box a{
+    color: red;
+}
+
+.box{
+    border: 1px solid red;
+    width: 223px;
+    height: 350px;
+    margin-top: 77px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px gray;
+
+}
+
+.box1{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.box2{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    padding: 30px;
+}
+
+.box3{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    padding: 30px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.complete{
+    text-decoration: line-through;
+    margin-top: 54px;
+    text-align: right;
+    color: red;
+}
+
+form{
+    color: black;
+    font-size: 25px;
+    margin-top: 23px;
+    text-align: left;
+}
+
+.larger{
+    width: 18px;
+    height: 20px;
+}
+
+@media screen and (min-width:300px) and (max-width:640px){
+    .flex{
+        display: block;
+    }
+    .box{
+        margin-top: 50px;
+        height: 0px;
+        width: 120px;
+        margin-left: 0px;
+        text-align: left;
+        font-size: 20px; 
+        /* margin: 20px; */
+        border: 1px lightslategrey;
+        color: lightslategrey;
+        border-radius: 8px;
+    }
+    .complete{
+        visibility: hidden;
+    }
+    form{
+        visibility: hidden;
+    }
+    .box a{
+        color: lightslategrey;
+    }
+    hr{
+        visibility: hidden;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+    .plus{
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+        margin-right: 80px;
+        border-radius:50% ;
+        text-align: center;
+    }
+    .box11{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+     .addlist{
+        margin-left:-90px ;
+        visibility: hidden;
+    } 
+
+}
+    
+@media screen and (min-width:760px) and (max-width:1025px){
+    .flex{
+        display: block;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+    .addlist{
+        margin-left: -80px;
+        visibility: hidden;
+    }
+    .plus{
+        margin-left: 50px;
+    }
+    .box{
+        margin-left: 200px;
+    }
+    .box11{
+        font-size: 40px;
+        margin-top: 50px;
+        margin-left: 160px;
+    }
+    .list{
+        font-size: 40px;
+        margin-left: 15px;
+    }
+
+}
+
+
+
+
+
